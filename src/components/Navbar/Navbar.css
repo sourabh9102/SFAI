@@ -1,0 +1,52 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 29px 20px;
+    /* width: 1920px;
+    height: 1025px; */
+
+}
+
+.navLogo {
+    width: 149px;
+    height: 39px;
+}
+
+.navLinks {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 40px;
+    /* width: 826px;
+    height: 87px; */
+    left: 511px;
+    align-items: center;
+    justify-content: center;
+}
+
+.navLinks a {
+    text-decoration: none;
+    color: #FFF;
+    font-family: Mazzard;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.44px;
+    text-transform: uppercase;
+}
+
+.navBtn {
+    width: 241px;
+    height: 56px;
+    border-radius: 50px;
+    top: 19px;
+    left: 1621px;
+    color: #8D36DF;
+    background-color: white;
+    border: 1px solid #8D36DF;
+
+}

@@ -1,0 +1,60 @@
+.welcomePagePara {
+    color: #C7C0B6;
+    font-family: Ethnocentric;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.welcomePageHeading {
+    width: 528px;
+    color: #000014;
+    font-family: Mazzard;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 72px;
+    text-transform: uppercase;
+}
+
+.welcomePageHeading span {
+    color: #8D36DF;
+}
+
+.welcomePageSidePara {
+    width: 582px;
+    color: #2D3239;
+    font-family: Mazzard;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.sideParaSpan {
+    color: #2D3239;
+}
+
+/* Center the content and use flexbox to place elements side by side */
+.welcome-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Add spacing and style as needed */
+.left-content {
+    padding: 20px;
+}
+
+.right-content {
+    padding: 20px;
+}
+
+.welcomeParaImage {
+    width: 549px;
+    height: 424px;
+    flex-shrink: 0;
+}

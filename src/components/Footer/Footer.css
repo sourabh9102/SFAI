@@ -1,0 +1,93 @@
+.flex-container {
+    display: flex;
+    /* width: 1903px;
+    height: 1000px; */
+    flex-shrink: 0;
+    opacity: 0.5;
+    background: url(/src/images/footer.png), lightgray 50% / cover no-repeat;
+    background-color: black;
+    padding: 75px 273px 0px;
+    justify-content: space-between;
+}
+
+.footerText {
+    color: #FFF;
+    font-family: Mazzard;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    width: 312px;
+}
+
+.footerQuickLinks {
+    color: #8D36DF;
+    font-family: Mazzard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.footerLinks {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footerLinks li {
+    margin-bottom: 5px;
+}
+
+.footerLinks a {
+    text-decoration: none;
+    color: #FFF;
+    font-family: Mazzard;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.flex p {
+    margin: 0;
+}
+
+.footerSubscribe {
+    width: 227px;
+    color: rgba(255, 255, 255, 0.40);
+    font-family: Mazzard;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+    background-color: transparent;
+    color: white;
+}
+
+input::placeholder {
+    color: white;
+}
+
+input::placeholder {
+    color: white;
+}
+
+input::placeholder::after {
+    content: "@";
+    color: #CB00FF;
+}
