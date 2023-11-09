@@ -1,0 +1,96 @@
+.card-container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    margin: 10px;
+    text-align: center;
+}
+
+.bgImage1 {
+    background-image: url(/src/images/sponsorshipBg.png);
+}
+
+.leftText {
+    width: 528px;
+    color: #FFF;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 72px;
+    text-transform: uppercase;
+}
+
+.rightImg {
+    width: 284px;
+    height: 248px;
+    flex-shrink: 0;
+}
+
+.cardNumber {
+    color: #5603B4;
+    text-align: center;
+    font-family: "ethnocentric-regular";
+    font-size: 95px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.rightImg30 {
+    width: 284px;
+    height: 248px;
+    flex-shrink: 0;
+    background: #FFF;
+}
+
+.rightCard30 {
+    color: #5603B4;
+    text-align: center;
+    font-family: "ethnocentric-regular";
+    font-size: 95px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.rightCardText30 {
+    width: 171px;
+    color: #5603B4;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.rightImg4 {
+    width: 284px;
+    height: 248px;
+    flex-shrink: 0;
+    background: #5603B4;
+}
+
+.rightCard4 {
+    color: #FFF;
+    text-align: center;
+    font-family: "ethnocentric-regular";
+    font-size: 95px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.rightCardText4 {
+    width: 171px;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}

@@ -8,8 +8,7 @@ function WelcomePage() {
             <div className="left-content">
                 <p className="welcomePagePara">Welcome to</p>
                 <p className="welcomePageHeading" style={{ marginTop: '15px' }}>San Francisco <span>AI Conference!</span></p>
-
-                <img src={welcomePageImage} alt="Welcome Page Image" className='welcomeParaImage'/>
+                <img src={welcomePageImage} alt="Welcome Page Image" className='welcomeParaImage' />
             </div>
             <div className="right-content">
                 <p className="welcomePageSidePara">
@@ -20,7 +19,7 @@ function WelcomePage() {
                     <span className="sideParaSpan">What sets us apart are the prestigious and world-renowned speakers who will grace our stage. These luminaries, experts in their respective fields, will share their insights, experiences, and visions for the future of AI. Be prepared to be inspired, challenged, and enlightened as they take you on an extraordinary journey.</span>
                 </p>
             </div>
-        </div >
+        </div>
     );
 }
 

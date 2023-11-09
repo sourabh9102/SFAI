@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "ethnocentric-regular";
+    src: url(/public/fonts/ethnocentric-regular.ttf);
+}
+
+
+
+body {
+    font-family: "MazzardH-Regular";
+}

@@ -1,0 +1,132 @@
+.card-container {
+    display: flex;
+}
+
+.card {
+    margin: 10px;
+}
+
+.travelHeading {
+    width: 823px;
+    color: #000014;
+    font-family: Mazzard;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 72px;
+    text-transform: uppercase;
+}
+
+.travelHeadingText {
+    color: #8D36DF;
+    font-family: Mazzard;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 72px;
+    text-transform: uppercase;
+}
+
+.travelBtn {
+    width: 209px;
+    height: 45px;
+    flex-shrink: 0;
+    background: #F1F1F1;
+}
+
+.travelBtnText {
+    color: #000014;
+    font-family: Mazzard;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px;
+    text-transform: uppercase;
+}
+
+.travelSubHeading {
+    color: #8D36DF;
+    font-family: Ethnocentric;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    text-transform: lowercase;
+}
+
+.travelPara {
+    width: 823px;
+    color: #2D3239;
+    font-family: Mazzard;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.card1 {
+    width: 366px;
+    height: 470px;
+    flex-shrink: 0;
+    border: 1px solid black;
+    background: #FFF;
+}
+
+.card2 {
+    width: 366px;
+    height: 470px;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, #CB00FF 0%, #5603B4 100%);
+}
+
+.travelPriceCardHead {
+    color: #727271;
+    font-family: Ethnocentric;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+}
+
+.travelPriceCard {
+    color: #8D36DF;
+    font-family: Mazzard;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px;
+    text-transform: uppercase;
+}
+
+.travelPriceCardTopic {
+    width: 217px;
+    color: #000014;
+    font-family: Mazzard;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+    text-transform: capitalize;
+}
+
+.travelPriceCardPara {
+    width: 275px;
+    color: #000014;
+    font-family: Mazzard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.travelPriceCardBtn {
+    color: #8D36DF;
+    font-family: Mazzard;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px;
+    text-transform: uppercase;
+}

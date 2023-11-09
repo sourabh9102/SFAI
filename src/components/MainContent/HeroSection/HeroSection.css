@@ -4,13 +4,9 @@
     background-color: black;
 }
 
-.hero-content {
-    margin-left: 384px;
-}
-
 .heroHeading {
     color: #FFF;
-    font-family: Ethnocentric;
+    font-family: "ethnocentric-regular";
     font-size: 70px;
     font-style: normal;
     font-weight: 400;
@@ -22,7 +18,7 @@
 .heroHeading span {
     color: #FFF;
     text-shadow: 0px 0px 20px #E79FFF;
-    font-family: Ethnocentric;
+    font-family: "ethnocentric-regular";
     font-size: 70px;
     font-style: normal;
     font-weight: 400;
@@ -34,25 +30,69 @@
 .heroPara {
     width: 578px;
     color: #FFF;
-    font-family: Mazzard;
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
     line-height: 34px;
 }
 
-#timer {}
+.heroIconPara {
+    color: #FFF;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
+.heroBtn1 {
+    width: 241px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #FFF;
+}
+
+.heroBtn2 {
+    color: white;
+    width: 187px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: linear-gradient(87deg, #8D36DF 23.55%, #580A90 93.67%);
+    box-shadow: 0px 15px 22px 0px rgba(0, 0, 0, 0.25);
+}
+
+.heroBtn3 {
+    max-width: 1170px;
+    height: 125px;
+    border-radius: 200px;
+    background: #FFF;
+}
+
+.heroBtn3Content {
+    color: #000014;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.heroBtn3Btn {
+    color: white;
+    width: 229px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: linear-gradient(85deg, #CB00FF 11.58%, #5603B4 90.82%);
+}
 
 .image-container {
     display: inline-block;
     background-color: #000014;
-    width: 1920px;
     height: 144px;
 }
 
 .overlay-images {
-
     padding-top: 43px;
     left: 0;
     display: flex;

@@ -1,6 +1,6 @@
 .welcomePagePara {
     color: #C7C0B6;
-    font-family: Ethnocentric;
+    font-family: "ethnocentric-regular";
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -11,7 +11,6 @@
 .welcomePageHeading {
     width: 528px;
     color: #000014;
-    font-family: Mazzard;
     font-size: 60px;
     font-style: normal;
     font-weight: 400;
@@ -26,7 +25,6 @@
 .welcomePageSidePara {
     width: 582px;
     color: #2D3239;
-    font-family: Mazzard;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;

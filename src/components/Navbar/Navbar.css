@@ -19,7 +19,7 @@
     padding: 0;
     margin: 0;
     display: flex;
-    gap: 40px;
+    gap: 50px;
     /* width: 826px;
     height: 87px; */
     left: 511px;
@@ -30,7 +30,6 @@
 .navLinks a {
     text-decoration: none;
     color: #FFF;
-    font-family: Mazzard;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
