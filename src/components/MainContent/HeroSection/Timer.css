@@ -24,10 +24,16 @@
     background: linear-gradient(180deg, #CB00FF 0%, rgba(86, 3, 180, 0.00) 95.83%);
 }
 
-.container {
-    color: #333;
-    margin: 0 auto;
-    text-align: center;
+.timerText{
+    width: 32.369px;
+    color: #626F7E;
+        font-family: Mazzard;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 34px;
+        letter-spacing: 0.66px;
+        margin-left: 38px;
 }
 
 h1 {
@@ -46,16 +52,6 @@ li {
 li span {
     display: block;
     font-size: 4.5rem;
-}
-
-.emoji {
-    display: none;
-    padding: 1rem;
-}
-
-.emoji span {
-    font-size: 4rem;
-    padding: 0 .5rem;
 }
 
 @media all and (max-width: 768px) {

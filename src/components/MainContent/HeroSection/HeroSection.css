@@ -1,7 +1,24 @@
 .hero-banner {
-    background: url(../../../images/hero-banner.png)no-repeat center;
-    background-size: cover;
-    background-color: black;
+    /* background: url()no-repeat center; */
+    background: url(../../../images/hero-banner.png), lightgray 50% / cover no-repeat;
+    position: relative;
+    /* background-color: black; */
+    width: 1903px !important;
+    height: 1000px;
+    flex-shrink: 0;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.top-right {
+    background-image: url(/src/images/heroMaskImage.png);
+    position: absolute;
+    margin-left: 722px;
+    margin-right: 52px;
 }
 
 .heroHeading {
@@ -13,6 +30,9 @@
     line-height: normal;
     letter-spacing: 5.6px;
     text-transform: uppercase;
+    /* width: 867px;  */
+    margin-left: 369px;
+    margin-top: 91px;
 }
 
 .heroHeading span {
@@ -34,6 +54,18 @@
     font-style: normal;
     font-weight: 400;
     line-height: 34px;
+    margin-left: 369px;
+    margin-top: 22px;
+}
+
+.heroIconImage1 {
+    margin-left: 369px;
+    margin-top: 24px;
+}
+
+.timerPosition {
+    margin-left: 369px;
+    margin-top: 41px;
 }
 
 .heroIconPara {
@@ -42,6 +74,8 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-top: 25px;
+    margin-left: 24px;
 }
 
 .heroBtn1 {
@@ -50,6 +84,8 @@
     flex-shrink: 0;
     border-radius: 50px;
     background: #FFF;
+    margin-left: 369px;
+    margin-top: 34px;
 }
 
 .heroBtn2 {
@@ -60,13 +96,18 @@
     border-radius: 50px;
     background: linear-gradient(87deg, #8D36DF 23.55%, #580A90 93.67%);
     box-shadow: 0px 15px 22px 0px rgba(0, 0, 0, 0.25);
+    margin-left: 25px;
 }
 
 .heroBtn3 {
-    max-width: 1170px;
+    width: 1170px;
     height: 125px;
     border-radius: 200px;
     background: #FFF;
+    margin-left: 369px;
+    margin-top: 59px;
+    margin-right: 364px;
+    margin-bottom: 10px;
 }
 
 .heroBtn3Content {
@@ -75,6 +116,9 @@
     font-style: normal;
     font-weight: 600;
     line-height: 30px;
+    margin-left: 35px;
+    margin-top: 49px;
+    margin-right: 35px;
 }
 
 .heroBtn3Btn {
@@ -84,6 +128,7 @@
     flex-shrink: 0;
     border-radius: 50px;
     background: linear-gradient(85deg, #CB00FF 11.58%, #5603B4 90.82%);
+    margin-right: 33px;
 }
 
 .image-container {
@@ -105,3 +150,37 @@
 .overlay-images img {
     margin: 0 10px;
 }
+
+
+/* @media (max-width: 1540px) {
+    .heroHeading {
+        font-size: 50px;
+    }
+
+    .heroPara {
+        font-size: 18px;
+    }
+
+    .heroIconImage1 {
+        margin-left: 336px;
+        margin-top: 10px;
+    }
+
+    .timerPosition {
+        margin-left: 336px;
+        margin-top: 10px;
+    }
+
+    .heroBtn1 {
+        width: 200px;
+        margin-left: 336px;
+    }
+
+    .heroBtn2 {
+        width: 150px;
+    }
+
+    .heroBtn3 {
+        margin-left: 336px;
+    }
+} */

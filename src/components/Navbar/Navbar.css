@@ -1,12 +1,8 @@
-/* Navbar.css */
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 29px 20px;
-    /* width: 1920px;
-    height: 1025px; */
-
 }
 
 .navLogo {
@@ -20,8 +16,6 @@
     margin: 0;
     display: flex;
     gap: 50px;
-    /* width: 826px;
-    height: 87px; */
     left: 511px;
     align-items: center;
     justify-content: center;
@@ -48,4 +42,9 @@
     background-color: white;
     border: 1px solid #8D36DF;
 
+}
+
+
+.navLinks li:hover {
+    background-image: url(/src/images/navbarHover.png);
 }
